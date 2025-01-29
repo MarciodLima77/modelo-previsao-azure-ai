@@ -1,0 +1,12 @@
+{
+  "endpoint": "https://meu-endpoint.azure.com/predict",  # Substituir pela URL real do meu endpoint
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer meu_token_de_autenticacao"  # Substituir meu seu token, se necessário
+  },
+  "input_data": {
+    "feature1": "valor1",
+    "feature2": "valor2",
+    "feature3": "valor3"
+  }
+}
